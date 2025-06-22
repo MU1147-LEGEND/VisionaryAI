@@ -1,15 +1,14 @@
 import { useContext } from "react";
-import logo from "../../assets/visionary-ai.png";
+import logo from "../../assets/visionary.png";
 import { stateContext } from "../../context/AppContext";
 
 const Header = () => {
-    const {state, dispatch} = useContext(stateContext);
+    const { state, dispatch } = useContext(stateContext);
 
     const handleRouteChange = (path) => {
         dispatch({ type: "SET_ROUTE", payload: path });
         // set the url location to /path
         window.history.pushState({}, "", `/${path}`);
-        
     };
     let activeStyle = "font-medium text-zinc-200";
     return (
