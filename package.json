@@ -1,10 +1,10 @@
 {
-    "name": "lws-ai-studio",
+    "name": "visionary-ai",
     "private": true,
-    "version": "0.0.0",
+    "version": "0.0.1",
     "type": "module",
     "scripts": {
-        "push": "git push LWS-class main && git push vercel main",
+        "push": "git push -u origin main",
         "dev": "vite --host",
         "build": "vite build",
         "lint": "eslint .",
