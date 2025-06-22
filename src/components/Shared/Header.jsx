@@ -13,14 +13,14 @@ const Header = () => {
     let activeStyle = "font-medium text-zinc-200";
     return (
         <>
-            <header className="flex items-center mb-6 justify-between">
+            <header className="flex items-center mb-6 justify-between z-50">
                 <div className="flex items-center">
                     <img src={logo} className="h-20" alt="Logo" />
                 </div>
                 <nav>
                     <ul className="ml-4 text-sm text-zinc-400 flex gap-8">
                         <li>
-                            <a
+                            <button
                                 onClick={() => {
                                     handleRouteChange("create");
                                 }}
@@ -32,10 +32,10 @@ const Header = () => {
                                 }
                             >
                                 Create Image
-                            </a>
+                            </button>
                         </li>
                         <li>
-                            <a
+                            <button
                                 onClick={() => {
                                     handleRouteChange("downloaded");
                                 }}
@@ -47,7 +47,7 @@ const Header = () => {
                                 }
                             >
                                 Downloaded
-                            </a>
+                            </button>
                         </li>
                     </ul>
                 </nav>
