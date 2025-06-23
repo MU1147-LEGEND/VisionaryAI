@@ -1,9 +1,4 @@
-# 🚀 Reactive Accelerator — Assignment 4 (Batch-3)
-
-This is the fourth assignment for the **RNext** course by **Learn with Sumit**.  
-LWS AI Studio is a React-based project that showcases a responsive landing page for a fictional AI Project called "LWS AI Studio". The project is built using React with Vite and styled with Tailwind CSS.
-
----
+# 🚀 Visionary - AI . Next gen text-to-image Generator tool.
 
 ## 📦 Features
 
